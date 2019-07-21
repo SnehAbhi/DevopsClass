@@ -1,0 +1,694 @@
+    1  root@172.31.46.158
+    2  ssh root@172.31.46.158
+    3  ssh root@172.31.46.158
+    4  ssh-keygen -t rsa
+    5  cat /root/.ssh/id_rsa.pub
+    6  ssh root@172.31.46.158
+    7  cd /etc/yum
+    8  ls
+    9  cd~
+   10  cd /etc/yum.repos.d
+   11  vi ansible.repo
+   12  yum update -y
+   13  rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+   14  ls
+   15  yum -y install ansible
+   16  ansible --version
+   17  cd ~
+   18  cd /etc/ansible/host
+   19  cd /etc
+   20  ls
+   21  cd~
+   22  yum install git
+   23  cd~
+   24  cd
+   25   cd /opt
+   26  cd ~
+   27  cd /opt/
+   28  git clone https://github.com/SnehAbhi/DevopsClass.git
+   29  cd DevopsClass
+   30  mkdir ans
+   31  cd ansible_demo
+   32  vi mytest.yml
+   33  cd~
+   34  cd ~
+   35  cd /etc/ansible
+   36  cd host
+   37  ls -ltr
+   38  cd hosts
+   39  cd /hosts
+   40  cd hosts
+   41  cd /hosts
+   42  cd ~
+   43  cd /etc/ansible/hosts
+   44  cd /etc/ansible
+   45  cat hosts
+   46  vi hosts
+   47  cd~
+   48  cd DevopsClass
+   49  cd~
+   50  cd DevopsClass
+   51  ls
+   52  cd..
+   53  cd ..
+   54  cd
+   55  cd DevopsClass
+   56  history
+   57  cd DevopsClass
+   58  cd /etc
+   59  cd..
+   60  cd /opt
+   61  cd DevopsClass/
+   62  ls
+   63  cd ansible_demo/
+   64  vi /etc/ansible/hosts
+   65  vi /opt/key.pem
+   66  chmod 600 /opt/key.pem
+   67  ls -ltr /opt/key.pem
+   68  vi /etc/ansible/hosts
+   69  ansible -playbook mytest.yml -vv
+   70  vi mytest.yml
+   71  vi mytest.yml
+   72  ansible-playbook mytest.yml -vv
+   73  vi mytest.yml
+   74  ansible-playbook mytest.yml -vv
+   75  vi mytest.yml
+   76  ansible-playbook mytest.yml -vv
+   77  vi mytest.yml
+   78  vi /etc/ansible/host
+   79  vi /etc/ansible/hosts
+   80  vi mytest.yml
+   81  ansible-playbook mytest.yml -vv
+   82  vi mytest.yml
+   83  vi /etc/ansible/hosts
+   84  cd /opt
+   85  ls -ltr
+   86  vi /etc/ansible/hosts
+   87  ansible-playbook mytest.yml -vv
+   88  ls -ltr
+   89  cd DevopsClass/
+   90  ansible-playbook mytest.yml -vv
+   91  ls
+   92  cd ansible_demo/
+   93  ansible-playbook mytest.yml -vv
+   94  ls
+   95  vi mytest.yml
+   96  ansible-playbook mytest.yml -vv
+   97  curl
+   98  vi mytest.yml
+   99  history
+  100  ls
+  101  cd /opt
+  102  ls
+  103  cd DevopsClass/
+  104  ls
+  105  cd ansible_demo/
+  106  ls
+  107  vi mytest.yml
+  108  vi mytest1.yml
+  109  cat mytest.yml
+  110  vi mytest1.yml
+  111  vi /etc/ansible/hosts
+  112  ansible-playbook mytest.yml -vv
+  113  ansible-playbook mytest.yml
+  114  ansible-playbook mytest1.yml
+  115  vi mytest1.yml
+  116  ansible-playbook mytest1.yml
+  117  vi mytest1.yml
+  118  ansible-playbook mytest1.yml
+  119  vi mytest1.yml
+  120  ansible-playbook mytest1.yml
+  121  pwd
+  122  history
+  123  ansible-playbook mytest1.yml
+  124  cat mytest1.yml
+  125  cat /etc/ansible/hosts
+  126  ansible-playbook mytest1.yml
+  127  ansible-playbook mytest1.yml -v
+  128  vi mytest1.yml
+  129  ansible-playbook mytest1.yml -v
+  130  vi listdemo.yml
+  131  ansible-playbook listdemo.yml
+  132  vi listdemo.yml
+  133  ansible-playbook listdemo.yml
+  134  vi listdemo.yml
+  135  ansible-playbook listdemo.yml
+  136  vi listdemo.yml
+  137  ansible-playbook listdemo.yml
+  138  vi listdemo.yml
+  139  pwd
+  140  ssh root@172.31.46.158
+  141  cat /etc/ansilbe/hosts
+  142  vi /etc/ansilbe/hosts
+  143  cd /opt
+  144  ls
+  145  cd DevopsClass/
+  146  ls
+  147  cd ansible_demo/
+  148  ls
+  149  cat mytest.yml
+  150  cd /opt
+  151  ls
+  152  cd DevopsClass/
+  153  cd ansible_demo/
+  154  ls
+  155  vi listdemo.yml
+  156  ansible-playbook listdemo.yml -v
+  157  vi listdemo.yml
+  158  ansible-playbook listdemo.yml -v
+  159  vi listdemo.yml
+  160  cat listdemo.yml
+  161  vi listdemo.yml
+  162  cat listdemo.yml
+  163  ansible-playbook listdemo.yml -v
+  164  cat listdemo.yml
+  165  history
+  166  cd /opt
+  167  ls
+  168  cd DevopsClass/
+  169  ls
+  170  cd ansible_demo/
+  171  ls
+  172  cat mytest.yml
+  173  cat mytest1.yml
+  174  cat listdemo.yml
+  175  vi /etc/ansible/hosts
+  176  cd /opt
+  177  ls
+  178  cd DevopsClass/
+  179  cd ansible_demo/
+  180  ls
+  181  ansible-playbook mytest1.yml
+  182  cat mytest1.yml
+  183  vi assign1.yml
+  184  ls -ltr
+  185  ansible-playbook assign1.yml
+  186  vi assign1.yml
+  187  ansible-playbook assign1.yml
+  188  vi assign1.yml
+  189  ansible-playbook assign1.yml
+  190  vi assign1.yml
+  191  cd /opt
+  192  cd DevopsClass/
+  193  cd ansible_demo/
+  194  ls
+  195  vi assign1.yml
+  196  ansible assign1.yml
+  197  ansible assign1.yml -v
+  198  ansible-playbook assign1.yml -v
+  199  vi assign1.yml
+  200  ansible-playbook assign1.yml -v
+  201  vi assign1.yml
+  202  ansible-playbook assign1.yml -v
+  203  vi assign1.yml
+  204  ansible-playbook assign1.yml -vv
+  205  vi assign1.yml
+  206  ansible-playbook assign1.yml -vv
+  207  ansible-playbook assign1.yml -v
+  208  vi assign1.yml
+  209  ansible-playbook assign1.yml -v
+  210  ansible-playbook assign1.yml -vv
+  211  cd /opt
+  212  cd DevopsClass/
+  213  ls
+  214  cd ansible_demo/
+  215  ls
+  216  cat mytest1.yml
+  217  cat listdemo.yml
+  218  tree
+  219  yum install tree
+  220  tree
+  221  history
+  222  ansible-playbook listdemo.yml
+  223  cd opt
+  224  cd Devops
+  225  ls
+  226  cd opt
+  227  ls
+  228  history
+  229  cd /opt
+  230  cd DevopsClass/
+  231  cd ansible_demo/
+  232  ls
+  233  vi assign1.yml
+  234  ansible-playbook assign1.yml -v
+  235  cd /opt/DevopsClass/ansible_demo/
+  236  vi assign1.yml
+  237  ansible-playbook assign1.yml -v
+  238  vi assign1.yml
+  239  ansible-playbook assign1.yml -v
+  240  vi assign1.yml
+  241  ansible-playbook assign1.yml -v
+  242  vi assign1.yml
+  243  ansible-playbook assign1.yml -v
+  244  vi assign1.yml
+  245  ansible-playbook assign1.yml -v
+  246  vi assign1.yml
+  247  ansible-playbook assign1.yml -v
+  248  vi assign1.yml
+  249  ansible-playbook assign1.yml -v
+  250  vi assign1.yml
+  251  ansible-playbook assign1.yml -vv
+  252  cd /opt/DevopsClass/ansible_demo/
+  253  vi assign1.yml
+  254  ansible-playbook assign1.yml -v
+  255  vi assign1.yml
+  256  ansible-playbook assign1.yml -v
+  257  vi assign1.yml
+  258  ansible-playbook assign1.yml -v
+  259  vi assign1.yml
+  260  ansible-playbook assign1.yml -v
+  261  vi assign1.yml
+  262  ansible-playbook assign1.yml -v
+  263  vi assign1.yml
+  264  ansible-playbook assign1.yml -v
+  265  vi assign1.yml
+  266  ansible-playbook assign1.yml -v
+  267  vi assign1.yml
+  268  ansible-playbook assign1.yml -v
+  269  cd /opt/DevopsClass/ansible_demo/
+  270  vi assign1.yml
+  271  ansible-playbook assign1.yml -vv
+  272  vi assign1.yml
+  273  ansible-playbook assign1.yml -vv
+  274  vi assign1.yml
+  275  cd /opt/DevopsClass/ansible_demo/
+  276  vi assign1.yml
+  277  ansible-playbook assign1.yml -v
+  278  vi assign1.yml
+  279  ansible-playbook assign1.yml
+  280  vi assign1.yml
+  281  ansible-playbook assign1.yml
+  282  vi assign1.yml
+  283  cd /opt/DevopsClass/ansible_demo/
+  284  ansible-playbook assign1.yml -vv
+  285  vi assign1.yml
+  286  ansible-playbook mytest1.yml -v
+  287  vi assign1.yml
+  288  ansible-playbook mytest1.yml -v
+  289  ansible-playbook assign1.yml -v
+  290  vi assign1.yml
+  291  ansible-playbook assign1.yml -v
+  292  vi assign1.yml
+  293  ansible-playbook assign1.yml -v
+  294  vi assign1.yml
+  295  ansible-playbook assign1.yml -v
+  296  vi assign1.yml
+  297  cd /opt/DevopsClass/ansible_demo/
+  298  vi assign1.yml
+  299  ansible-playbook assign1.yml -v
+  300  vi assign1.yml
+  301  ansible-playbook assign1.yml -v
+  302  ansible-playbook assign1.yml -vv
+  303  vi assign1.yml
+  304  ansible-playbook assign1.yml -vv
+  305  vi assign1.yml
+  306  ansible-playbook assign1.yml -vv
+  307  vi assign1.yml
+  308  +++++
+  309  cd /opt/DevopsClass/ansible_demo/
+  310  ls
+  311  vi assign1.yml
+  312  cd /opt/DevopsClass/ansible_demo/
+  313  ls
+  314  vi new.yml
+  315  ansible-playbook new.yml -v
+  316  vi new.yml
+  317  ansible-playbook new.yml -v
+  318  vi new.yml
+  319  ansible-playbook new.yml -v
+  320  vi new.yml
+  321  ansible-playbook new.yml -v
+  322  vi new.yml
+  323  ansible-playbook new.yml -v
+  324  vi new.yml
+  325  ansible-playbook new.yml -v
+  326  vi new.yml
+  327  yum install nagios -v
+  328  ls
+  329  vi mytest.yml
+  330  cat mytest1.yml
+  331  vi nagios.yml
+  332  ansible-playbook nagios.yml -v
+  333  vi nagios.yml
+  334  ansible-playbook nagios.yml -v
+  335  ls
+  336  vi new.yml
+  337  vi monitor.yml
+  338  cd /opt/DevopsClass/ansible_demo/
+  339  ls
+  340  vi monitor.yml
+  341  cat mytest1.yml
+  342  vi monitor.yml
+  343  ansible-playbook monitor.yml -v
+  344  vi monitor.yml
+  345  pwd
+  346  vi monitor.yml
+  347  ansible-playbook monitor.yml -v
+  348  cd /opt/DevopsClass/ansible_demo/
+  349  vi monitor.yml
+  350  ansible-playbook monitor.yml -v
+  351  cd /opt/DevopsClass/ansible_demo/
+  352  ansible-playbook monitor.yml -v
+  353  vi monitor.yml
+  354  ansible-playbook monitor.yml -v
+  355  vi monitor.yml
+  356  ansible-playbook monitor.yml -v
+  357  vi monitor.yml
+  358  ansible-playbook monitor.yml -v
+  359  vi monitor.yml
+  360  ansible-playbook monitor.yml -v
+  361  vi monitor.yml
+  362  ansible-playbook monitor.yml -v
+  363  vi monitor.yml
+  364  ansible-playbook monitor.yml -v
+  365  vi new.yml
+  366  vi monitor.yml
+  367  cd /opt
+  368  ls
+  369  mkdir log
+  370  cd log
+  371  cd /opt
+  372  cd DevopsClass/
+  373  cd ansible_demo/
+  374  vi monitor.yml
+  375  ansible-playbook monitor.yml -v
+  376  vi monitor.yml
+  377  ansible-playbook monitor.yml -v
+  378  vi monitor.yml
+  379  ansible-playbook monitor.yml -v
+  380  cat /opt/log/log1.txt
+  381  vi monitor.yml
+  382  cd /opt
+  383  ls
+  384  cd DevopsClass/
+  385  cd ansible_demo/
+  386  ls
+  387  cat monitor.yml
+  388  ls
+  389  cat nagios.yml
+  390  ansible-playbook nagios.yml -v
+  391  cd /opt/DevopsClass/ansible_demo/
+  392  ls
+  393  cat assign1.yml
+  394  vi assign1.yml
+  395  ansible-playbook assign1.yml -v
+  396  vi assign1.yml
+  397  ansible-playbook assign1.yml -v
+  398  ansible-playbook assign1.yml -vv
+  399  vi assign1.yml
+  400  ansible-playbook assign1.yml -vv
+  401  vi assign1.yml
+  402  ansible-playbook assign1.yml -vv
+  403  cd /opt/DevopsClass/ansible_demo/
+  404  ls
+  405  vi assign1.yml
+  406  ansible-playbook assign1.yml -v
+  407  vi assign1.yml
+  408  ansible-playbook assign1.yml -vv
+  409  vi assign1.yml
+  410  ansible-playbook assign1.yml -vv
+  411  vi assign1.yml
+  412  ansible-playbook assign1.yml -vv
+  413  vi assign1.yml
+  414  ansible-playbook assign1.yml -vv
+  415  ansible-playbook assign1.yml -vvv
+  416  vi assign1.yml
+  417  cat assign1.yml
+  418  cd /opt/DevopsClass/ansible_demo/
+  419  ls
+  420  vi assign1.yml
+  421  cd /opt/DevopsClass/ansible_demo/
+  422  vi assign1.yml
+  423  ansible-playbook assign1.yml -v
+  424  vi assign1.yml
+  425  ansible-playbook assign1.yml -v
+  426  vi assign1.yml
+  427  ansible-playbook assign1.yml -v
+  428  vi assign1.yml
+  429  cd /opt/DevopsClass/ansible_demo/
+  430  vi loop.yml
+  431  ansible-playbook loop.yml
+  432  cat loop.yml
+  433  vi loop.yml
+  434  ansible-playbook loop.yml
+  435  vi loop.yml
+  436  ansible-playbook loop.yml
+  437  vi loop.yml
+  438  ansible-playbook loop.yml
+  439  cat loop.yml
+  440  vi loop.yml
+  441  ansible-playbook loop.yml
+  442  vi loop.yml
+  443  ansible-playbook loop.yml
+  444  vi loop.yml
+  445  ls
+  446  cat mytest1.yml
+  447  cat new.yml
+  448  cat listdemo.yml
+  449  vi loop.yml
+  450  ansible-playbook loop.yml
+  451  cat loop.yml
+  452  vi loop.yml
+  453  ansible-playbook loop.yml
+  454  vi loop.yml
+  455  ansible-playbook loop.yml
+  456  vi loop.yml
+  457  ansible-playbook loop.yml
+  458  vi loop.yml
+  459  ansible-playbook loop.yml
+  460  vi loop.yml
+  461  ansible-playbook loop.yml
+  462  vi loop.yml
+  463  cat lopp.yml
+  464  cat loop.yml
+  465  ansible-playbook assign1.yml
+  466  vi assign1.yml
+  467  ansible-playbook assign1.yml
+  468  vi assign1.yml
+  469  ansible-playbook assign1.yml
+  470  vi assign1.yml
+  471  ansible-playbook assign1.yml -v
+  472  vi assign1.yml
+  473  cd /opt/DevopsClass/ansible_demo/
+  474  ls
+  475  cat monitor.yml
+  476  cd /opt/DevopsClass/ansible_demo/
+  477  cd /opt/DevopsClass/ansible_demo/
+  478  ls
+  479  vi /etc/ansible/hosts
+  480  cd /opt/DevopsClass/ansible_demo/
+  481  vi /etc/ansible/hosts
+  482  cd /opt/DevopsClass/ansible_demo/
+  483  vi /etc/ansible/hosts
+  484  cat monitor
+  485  ls
+  486  cat monitor.yml
+  487  ansible-playbook monitor.yml -v
+  488  vi /etc/ansible/hosts
+  489  ansible-playbook monitor.yml -v
+  490  cd /opt/DevopsClass/ansible_demo/
+  491  vi /etc/ansible/hosts
+  492  ansible-playbook monitor.yml -v
+  493  vi /etc/ansible/hosts
+  494  ansible-playbook monitor.yml -v
+  495  cd /opt/DevopsClass/ansible_demo/
+  496  la
+  497  ls
+  498  cat /etc/ansible/hosts
+  499  vi /etc/ansible/hosts
+  500  ansible-playbook monitor.yml -v
+  501  cat monitor
+  502  cat monitor.yml
+  503  ls
+  504  cat /opt/log/log1.txt
+  505  cat /etc/ansible/hosts
+  506  LS
+  507  ls
+  508  vi ex5.yml
+  509  vi /cat/ansible/hosts
+  510  vi /etc/ansible/hosts
+  511  vi inventory.txt
+  512  ls
+  513  cat inventory.txt
+  514  vi ex5.yml
+  515  ansible-playbook ex5.yml -i inventory.txt
+  516  ansible-playbook -i inventory.txt ex5.yml 
+  517  vi ex5.yml
+  518  cat monitor.yml
+  519  vi ex5.yml
+  520  vi inventory.txt
+  521  ansible-playbook -i inventory.txt ex5.yml 
+  522  vi ex5.yml
+  523  vi inventory.txt
+  524  ansible-playbook -i inventory.txt ex5.yml
+  525  vi ex5.yml
+  526  ansible-playbook -i inventory.txt ex5.yml
+  527  ls -ltr
+  528  cat inventory.txt 
+  529  ansible-playbook -i inventory.txt ex5.yml
+  530  cat inventory.txt 
+  531  cat ex5.yml
+  532  cat inventory.txt 
+  533  cat ex5.yml
+  534  vi inventory.txt 
+  535  ansible-playbook -i inventory.txt ex5.yml
+  536  cat /opt/log/logs.txt
+  537  ls
+  538  vi log.txt
+  539  pwd
+  540  vi ex5.yml
+  541  ansible-playbook -i inventory.txt ex5.yml
+  542  vi ex5.yml
+  543  ansible-playbook -i inventory.txt ex5.yml
+  544  cat log.txt
+  545  cat inventory.txt 
+  546  cat ex5.yml 
+  547  vi assign1.yml
+  548  ansible-playbook assign1.yml -v
+  549  vi assign1.yml
+  550  ansible-playbook assign1.yml -v
+  551  vi inventory.txt
+  552  vi ex5.yml
+  553  ansible-playbook -i inventory.txt ex5.yml
+  554  vi assign1.yml
+  555  ansible-playbook assign1.yml -v
+  556  ansible-playbook assign1.yml -vv
+  557  vi assign1.yml
+  558  ansible-playbook assign1.yml -vv
+  559  vi assign1.yml
+  560  ansible-playbook assign1.yml -vv
+  561  sudo yum install wget
+  562  wget https://bootstrap.pypa.io/get-pip.py
+  563  sudo yum install gcc libffi-devel python-devel openssl-devel
+  564  sudo python get-pip.py
+  565  ls
+  566  ansible-playbook -i inventory.txt ex5.yml
+  567  pip install firwall
+  568  cat ex5.yml
+  569  pip install firewalld
+  570  ansible-playbook -i inventory.txt ex5.yml
+  571  ansible localhost -m firewalld -a 'state=enabled permanent=yes port=80/tcp'
+  572  sudo yum install wget
+  573  yum install dbus-glib-devel  dbus-glib python-slip-dbus dbus-python firewalld
+  574  ansible-playbook -i inventory.txt ex5.yml
+  575  vi inventory.txt 
+  576  ansible-playbook -i inventory.txt ex5.yml
+  577  cat log.txt
+  578  cat ex5.yml
+  579  ansible-playbook -i inventory.txt ex5.yml
+  580  ansible-playbook -i inventory.txt ex5.yml -vv
+  581  iptables
+  582  vi inventory.txt
+  583  ansible-playbook -i inventory.txt ex5.yml -vv
+  584  iptables
+  585  vi ex53.yml
+  586  ansible-playbook ex53.yml
+  587  cat ex52.yml
+  588  cat ex53.yml
+  589  cat ex53.yml -v
+  590  ansible-playbook ex53.yml -v
+  591  yum --enablerepo=mysql57-community install mysql-community-server
+  592  rpm -Uvh https://repo.mysql.com/mysql80-community-release-el7-3.noarch.rpm
+  593  yum --enablerepo=mysql57-community install mysql-community-server
+  594  pwd
+  595  vi ex61.yml
+  596  ansible-playbook ex61.yml -v
+  597  vi ex61.yml
+  598  ansible-playbook ex61.yml -v
+  599  vi ex61.yml
+  600  cat ex61
+  601  cat ex61.yml
+  602  vi var_path.yml
+  603  vi ex61.yml
+  604  ansible-playbook ex61.yml -v
+  605  ls
+  606  cat var_path.yml
+  607  cat ex61.yml
+  608  vi ex61.yml
+  609  ansible-playbook ex61.yml -
+  610  vi assign1.yml
+  611  ansible-playbook assign1.yml
+  612  vi assign1.yml
+  613  ansible-playbook assign1.yml -v
+  614  vi assign1.yml
+  615  ansible-playbook assign1.yml -v
+  616  vi ex61.yml
+  617  ansible-playbook assign1.yml -v
+  618  vi assign1.yml
+  619  ansible-playbook assign1.yml -v
+  620  vi assign1.yml
+  621  ansible-playbook assign1.yml -v
+  622  vi ex61.yml
+  623  git push -u origin master
+  624  cd /opt/DevopsClass/
+  625  git push -u origin master
+  626  ls
+  627  cd /a
+  628  cd ansible_demo/
+  629  ls
+  630  cat ex61.yml
+  631  vi ex61.yml
+  632  cat ex61.yml
+  633  history
+  634  ansible-playbook ex61.yml
+  635  ansible-playbook ex61.yml -v
+  636  vi ex61.yml
+  637  ansible-playbook ex61.yml -v
+  638  vi ex61.yml
+  639  ansible-playbook ex61.yml -v
+  640  vi ex61.yml
+  641  ansible-playbook ex61.yml -v
+  642  vi ex61.yml
+  643  ansible-playbook ex61.yml -v
+  644  cd /opt/DevopsClass/ansible_demo/
+  645  ls
+  646  cat ex61.yml
+  647  ansible-playbook ex61.yml -v
+  648  cat ex61.yml
+  649  vi ex61.yml
+  650  ansible-playbook ex61.yml -v
+  651  cat ex61.yml
+  652  vi ex61.yml
+  653  ansible-playbook ex61.yml -v
+  654  cd /opt/DevopsClass/ansible_demo/
+  655  vi user.yml
+  656  ansible-playbook user.yml -v
+  657  vi user.yml
+  658  ansible-playbook user.yml -v
+  659  vi user.yml
+  660  ansible-playbook user.yml -v
+  661  vi user.yml
+  662  ansible-playbook user.yml -v
+  663  cat user.yml
+  664  ls -ltr
+  665  vi ex53.yml
+  666  vi ex61.yml
+  667  ansible-playbook ex61.yml -v
+  668  cat exe61.yml
+  669  cat ex61.yml
+  670  ls -ltr
+  671  cat get-pip.py
+  672  ls  -ltr
+  673  cat mytest.yml
+  674  cat mytest1.yml
+  675  cat listdemo.yml
+  676  ls -ltr
+  677  cat listdemo.yml
+  678  cat new.yml
+  679  cat nagios.yml
+  680  cat monitor.yml
+  681  cat loop.yml
+  682  ls -ltr
+  683  cat ex5.yml
+  684  cat inventory.txt
+  685  cat var_path.yml
+  686  cat assign1.yml
+  687  ls -ltr
+  688  cat ex62.yml
+  689  cat user.yml
+  690  cat ex53.yml
+  691  cat ex61.yml
+  692  ls -ltr
+  693  history
+  694  history >> l0jul.txt

@@ -1,0 +1,2 @@
+ nameserver 10.1.250.10
+ nameserver 172.31.43.230

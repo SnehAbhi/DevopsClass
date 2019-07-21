@@ -1,0 +1,20 @@
+---
+- name: Loops
+  hosts: localhost
+  vars:
+     fruits:
+        - Apple:
+            calories: 95
+            Fat: 0.3g
+        - Banana:
+            calories: 105
+            Fat: 0.4g
+  tasks:
+     - name: Print Fruits with calories and Fat
+       debug:
+         msg: "{{ item.1 }}"
+#          debug:
+#            msg: " {{ cal }}"
+#          with_indexed_cals: " {{ item.1 }}"
+       with_indexed_items: "{{ fruits }}"
+...

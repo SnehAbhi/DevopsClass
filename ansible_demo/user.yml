@@ -1,0 +1,12 @@
+---
+- name: create user on remote machine
+  hosts: web
+  tasks:
+    - name: Create a new user
+      user: 
+         name: web_user
+         uid: 1040
+         group: developers
+         become: yes
+...
+      

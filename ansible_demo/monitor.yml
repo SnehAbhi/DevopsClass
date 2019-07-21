@@ -1,0 +1,34 @@
+#playybook to view date, file and uptime command of client machine
+---
+- hosts: web
+  gather_facts: false
+
+  vars:
+    pack_name: httpd
+    serv_name: httpd
+  tasks:
+    - name: Execute Date Command
+      command: date
+      register: output
+
+    - debug: var=output
+
+    - name: Execute Cat Command
+      command: cat /etc/hosts
+      register: output1
+
+    - debug: var=output1
+
+    - name: Uptime command
+      command: uptime
+      register: output2
+
+    - debug: var=output2
+
+    - name: Add date, file and uptime into file
+      lineinfile:
+         path: /opt/log/log1.txt
+         line: "{{ output.stdout }} {{ output1.stdout }} {{ output2.stdout }}"
+         create: yes      
+      delegate_to: localhost
+

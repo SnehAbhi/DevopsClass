@@ -1,0 +1,38 @@
+---
+- hosts: web
+  gather_facts: false
+
+  vars:
+    pack_name: 
+        - httpd
+        - binutils
+        - glibc
+        - ksh
+        - libaio
+        - libXext
+        - gcc
+        - make
+#        - sysstat
+#        - unixODBC
+#        - mongodb
+#        - nodejs
+#        - grunt
+
+  tasks:
+    - yum:
+        name: '{{ pack_name }}'  
+        state: installed
+#        ignore_errors: Yes
+      become: yes
+      register: output
+      with_items: '{{pack_name}}'
+      ignore_errors: Yes
+
+    - name: Print successfully installed names
+      debug:
+          msg: "{{ item.1.item }} successfully installed"
+      when: item.1.rc == 0
+      with_indexed_items: " {{ output.results }}"
+
+#    - debug: var=output   
+...

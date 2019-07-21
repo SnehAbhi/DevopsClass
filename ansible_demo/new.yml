@@ -1,0 +1,18 @@
+---
+- hosts: web 
+  gather_facts: false
+
+  vars:
+    pack_name: nagios
+
+  tasks:
+    - name: Install {{pack_name}}
+      yum: pkg = {{pack_name}} state= installed
+      become: yes
+      register: output
+
+    - name: Print installation message
+      debug: msg= " Installation is sucessfull"
+      when: output is succeeded
+
+...

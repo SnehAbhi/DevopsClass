@@ -1,0 +1,15 @@
+---
+- name: Update nameserver entry into resolve.conf file on localhost
+  hosts: localhost
+  tasks:
+    - name:  Update nameserver entry into resolve.conf file
+      lineinfile:
+           path: /opt/DevopsClass/ansible_demo/log.txt
+           line: ' nameserver {{ nameserver_ip }}'
+
+    - name: Disable SNMP Port
+      firewalld:
+          port: ' {{ snmp_port }}'
+          permanent: true
+          state: disabled
+...
